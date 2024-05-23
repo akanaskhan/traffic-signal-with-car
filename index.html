@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anmation.css" />
+</head>
+
+<body>
+
+    <div class="signal">
+    <button class="startBtn" id="startBtn" onclick="Start()"></button>
+    <button class="yellowBtn" id="greenBtn"></button>
+    <button class="stopBtn" id="stopBtn" onclick="Stop()" ></button>
+</div>
+<div class="signalStand">
+
+</div>
+    <div id="carDiv" class="carDiv">
+        <dotlottie-player id="car" class="car" src="https://lottie.host/7adc21f7-71be-433a-ac21-13549d6ab96f/22aqHrq8qM.json"
+            background="transparent" speed="1"  loop autoplay></dotlottie-player>
+        <!-- autoplay -->
+    </div>
+    <!-- <div id="carDivShow" class="">
+
+
+        <dotlottie-player class="car2" src="https://lottie.host/b41bf084-7c93-476a-af7c-eb6d7ab5277f/23uIXuDcMz.json"
+            background="transparent"  speed="1"  loop autoplay></dotlottie-player>
+    </div> -->
+    <!-- <iframe src="https://lottie.host/embed/56e90c95-84bd-47a9-93f2-1c28b7dd81f9/SZGGEbFrKA.json"></iframe> -->
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</body>
+
+</html>
